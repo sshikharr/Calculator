@@ -1,0 +1,53 @@
+*{
+    background-color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    margin: 8px;
+}
+.main{
+    margin : auto;
+    position: relative;
+    top: 100px;
+    border: 2px solid black;
+    height: 383px;
+    width: 232px;
+    border-radius: 10px;
+    
+}
+.display{
+    margin: 11px;
+}
+#display{
+    text-align: right;
+    height: 50px;
+    padding: 0px;
+    width: 205px;
+    font-size: 30px;
+}
+input{
+    border: 2px solid black;
+    font-size: large;
+}
+.button{
+    height: 40px;
+    width: 45px;
+    margin: 5px;
+    margin-top: 15px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-left: 33px;
+    margin-bottom: -15px;
+}
+#buttons6{
+    margin-left: 61px;
+}
+@media screen and (min-width){
+    
+}
